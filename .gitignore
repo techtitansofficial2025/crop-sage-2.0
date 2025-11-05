@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.env
+*.egg-info
+venv/
+.env/
+.ipynb_checkpoints/
+model/*.keras  # remove/comment this if you DO want to commit the model
+model/*.h5
+*.zip
