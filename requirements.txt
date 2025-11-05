@@ -1,7 +1,8 @@
-fastapi==0.95.2
-uvicorn[standard]==0.22.0
-tensorflow==2.14.0
+fastapi
+uvicorn[standard]
+gunicorn
+tensorflow              
 scikit-learn
 pandas
 numpy
-gunicorn
+requests
