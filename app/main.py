@@ -1,5 +1,7 @@
 # app/main.py
 import os
+os.environ["CUDA_VISIBLE_DEVICES"] = ""   # force CPU-only; prevents TF from trying to init CUDA
+os.environ["TF_CPP_MIN_LOG_LEVEL"] = "2"  # optional: reduce TF logs
 import pickle
 import numpy as np
 from typing import Optional
